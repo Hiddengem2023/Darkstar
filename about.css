@@ -1,0 +1,20 @@
+
+.brief{
+  color:white;
+}
+.brief span{
+  padding:40px;
+  text-decoration: underline;
+  background: var(--skin1-color);
+  background: linear-gradient(to right,var(--skin-color),var(--skin1-color));
+  background-clip: text;
+  color: transparent;
+  text-transform:uppercase;
+  font-family: fantasy;
+  animation:slideIn 2s ease-in-out;
+}
+.brief span:before{
+  content: "★";
+  color:var(--skin-colo);
+  
+}

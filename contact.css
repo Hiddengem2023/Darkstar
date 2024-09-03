@@ -1,0 +1,40 @@
+.touch h1:before{
+  content: "";
+  border-top:3px solid var(--skin1-color);
+  top:170px;
+  width:10px;
+  height:10px;
+  border-left:3px solid red;
+  left:7px;
+  position: absolute;
+  color: white;
+}
+.touch h1:after{
+  content: "";
+  border-bottom:3px solid var(--skin1-color);
+  top:200px;
+  width:10px;
+  height:10px;
+  border-right:3px solid red;
+  left:210px;
+  position: absolute;
+}
+.message{
+  display:block;
+}
+.message div{
+  display: block;
+  padding: 20px;
+}
+.message input,.message textarea{
+  display: block;
+  padding:10px;
+  margin-bottom:10px;
+  border:1px solid black;
+  border-radius:5px;
+}
+#link{
+  margin-left:30px;
+  color:var(--skin-color);
+  text-transform: uppercase;
+}
